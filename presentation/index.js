@@ -30,7 +30,7 @@ import createTheme from "spectacle/lib/themes/default";
 
 // Import custom component
 import Interactive from "../assets/interactive.js";
-import SpaceReddit from "../assets/spaceReddit.js";
+import RedditPosts from "../assets/redditPosts.js";
 
 
 // Require CSS
@@ -253,16 +253,16 @@ export default class Presentation extends React.Component {
 
           <Slide transition={["slide"]} bgColor="primary">
             <Heading size={1} caps fit textColor="tertiary">
-              These slides are hot-reloading a React app!
+              These slides are a hot-reloading React app!
             </Heading>
             <Interactive/>
           </Slide>
 
           <Slide transition={["slide"]} bgColor="primary">
             <Heading size={1} caps fit textColor="tertiary" margin="0 0 20px 0">
-              Async slides - space subreddit
+              Async slides - Fetch subreddit posts
             </Heading>
-            <SpaceReddit />
+            <RedditPosts />
           </Slide>
 
           <Slide transition={["slide"]} bgColor="primary">

@@ -7,7 +7,7 @@ const RedditPost = ({ data }) =>
     </a>
   </div>
 
-export default class SpaceReddit extends React.Component {
+export default class RedditPosts extends React.Component {
   constructor() {
       super();
       this.state = { items: [] };
@@ -15,12 +15,13 @@ export default class SpaceReddit extends React.Component {
   }
 
   fetchReddit() {
+    // space, startups, frontend
     fetch(`https://www.reddit.com/r/space.json`)
       .then(result => {
         result
           .json()
           .then(json => {
-            this.setState({ items: json.data.children.slice(0,6) });
+            this.setState({ items: json.data.children.slice(0,8) });
           });
       });
   }
