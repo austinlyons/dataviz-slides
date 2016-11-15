@@ -9,10 +9,11 @@ Also, some of the slides have dynamic functionality, like [this](https://github.
 
 It's hot reloading, so you can change the code and hit save without refreshing... makes for a fun party trick.
 
-Run the slides locally
+**Run the slides locally**
 * clone this repo
 * npm install
 * npm start
+* visit http://localhost:3000/ in your browser
 
 OR
 
