@@ -1,5 +1,7 @@
 # Slides for DSM Web Geeks talk
-These slides are a React app!
+These slides accompany the data visualization talk and [Untappd beer data viz demo](https://github.com/austinlyons/beer-dataviz-code) I gave at DSM Web Geeks.
+
+These slides are a React app! 
 
 You can see the slide code [here](https://github.com/austinlyons/dataviz-slides/blob/master/presentation/index.js).
 
